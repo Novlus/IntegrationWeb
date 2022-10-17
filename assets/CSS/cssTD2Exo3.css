@@ -1,0 +1,36 @@
+.Rubik
+{
+    font-family: 'Rubik Dirt', serif;
+    font-size: 3em;
+}
+
+#tGras
+{
+    font-weight: bold;
+}
+
+#tItalic
+{
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Titan';
+    src: url('TitanOne-Regular.ttf') format('truetype');
+    }
+
+.Titan
+{
+    font-family: 'Titan';
+    font-size: 3em;
+}
+
+#tiGras
+{
+    font-weight: bold;
+}
+#tiItalic
+{
+    font-style: italic;
+}

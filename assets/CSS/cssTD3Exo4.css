@@ -1,0 +1,32 @@
+section {
+    font-size: 0;
+    height: 500px;
+    padding : 10px;
+    border: 1px solid grey;
+    
+  }
+  
+  p {
+    font-size:1rem;
+    margin-top: 238px ;
+    display: inline-block;
+    background-color: transparent;
+    width: 25%; /* ne fonctionne pas à 25%  car meme si theoriquement 25 *4 =100 il y a un whitespace par défaut*/
+    padding: .5em;
+    border: 1px solid grey;
+    box-sizing:border-box
+
+  }
+
+  p:nth-child(1)::after,p:nth-child(2)::before,p:nth-child(3)::after
+  {
+    content:"Méfiez-vous c'est un conseil que je vous donne."
+  }
+
+  p:nth-child(4)
+  {
+    
+  }
+
+
+  

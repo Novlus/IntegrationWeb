@@ -1,0 +1,47 @@
+.img1
+{
+    width: 200px;
+    height: 200px;
+    float:inline-start
+}
+
+
+
+.img2
+{
+    width: 200px;
+    height: 200px;
+    float:right;
+    clear:right;
+    
+}
+
+.paragrapheText
+{
+    padding-left: 3%;
+   
+}
+.article1
+{
+   
+    background-color: lightgray;
+    margin: 0;
+}
+body
+{
+    margin: 0;
+}
+#paragraphe1
+{
+    margin:0;
+}
+
+#paragraphe2
+{
+    margin: 0;
+}
+
+#paragraphe3
+{
+    margin-top: 0;
+}

@@ -1,0 +1,51 @@
+p {
+    display: inline-block;
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+.ib {
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    background-color: black
+}
+#one
+{
+    overflow-wrap: break-word;
+    height: 22rem;
+    line-height: 1.5em;
+}
+
+#two
+{
+    text-align: right;
+    overflow: scroll;
+}
+
+#three
+{
+    overflow: hidden;
+}
+
+#four
+{
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+#five
+{
+    overflow: scroll;
+    white-space: pre-wrap;
+}
+
+#ib1,#ib2,#ib3
+{
+    text-align:left;
+}

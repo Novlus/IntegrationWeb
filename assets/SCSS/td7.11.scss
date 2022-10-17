@@ -1,0 +1,18 @@
+@import '_content'; 
+@import 'td7.10';
+
+section{
+     @extend .content;
+     border: 2px solid #ccc;
+     margin-left: 100px;
+     width: 90%;
+     $backgroundColorContent :cyan;
+     background-color: $backgroundColorContent;
+    
+}
+
+article{
+    @media screen and (min-width: 65em){
+        //@extend .content; ne fonctionne pas
+    }
+}

@@ -1,0 +1,34 @@
+.flex-container {
+    padding: 1em;
+    background-color: rgba(47, 255, 85, 0.84);
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    flex-direction:row;
+    height: 30em;
+}
+
+p {
+    background-color: #00FBFF;
+    padding: .5em;
+    outline: 1px solid grey;
+    height: 8em;
+    flex-basis: 12%;
+    flex-grow: 0;
+    
+    
+    
+}
+
+p:nth-child(1)
+{
+    order: -1;
+}
+p:nth-child(5)
+{
+    order: -2;
+    flex-grow: 5;
+    background-color: royalblue;
+}
+
+

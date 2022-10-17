@@ -1,0 +1,113 @@
+#paragrapheDiv1
+{
+  color:red;
+}
+
+#paragrapheDiv1
+{
+  color:blue;
+}
+
+div
+{
+  color:black;
+}
+#div2
+{
+  color:red;
+}
+
+#div3
+{
+  color:purple;
+}
+span
+{
+  color:green;
+}
+
+#div4
+{
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+.special
+{
+  color: black;
+    font-weight: bold;
+}
+
+#div5
+{
+  color:cyan;
+}
+.li1
+{
+  color: inherit;
+}
+
+.li2
+{
+  color: initial;
+}
+.li3
+{
+  color:unset;
+}
+
+.li4
+{
+  color:revert;
+}
+
+#div6
+{
+  font-weight:bold;
+  color:pink;
+}
+
+#deuxiemeParagrapheDiv6
+{
+  all:initial;
+}
+
+h2
+{
+   font-size: 2em;
+    color: #000;
+    font-family: Georgia,       'Times New Roman', Times, serif;
+}
+
+.petite
+{
+  font-size: 1em;
+}
+
+.couleur
+{
+   color: rebeccapurple;
+}
+
+#div8
+{
+   background-color: blue;
+    color: white;
+    padding: 5px;
+}
+.meilleur {
+    background-color: gray;
+    border: none !important;
+}
+
+#gagnant
+{
+   background-color: red;
+    border: 1px solid black;
+}
+
+.Retour
+{
+    margin-top: 10%;
+    
+}

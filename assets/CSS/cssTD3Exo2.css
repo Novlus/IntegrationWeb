@@ -1,0 +1,48 @@
+.bt {
+    background-color: #FFDC00;
+    height: 2em;
+    line-height: 2em;
+  }
+  
+  .jauge {
+      background-color: #39CCCC;
+      color: white;
+      padding: 0;
+      border: 0;
+      margin-bottom: 1px;
+      margin-top: 1px;
+  }
+
+  .b1
+  {
+    width: 100px;
+    background-color: aquamarine;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: 5px ridge blue;
+  }
+
+  .b2
+  {
+    width: 40vw;
+    background-color: aquamarine;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    border: 6px ridge coral;
+    box-sizing: border-box;
+  }
+
+  .j1
+  {
+    width: 180px;
+    background-color: #39CCCC;
+  }
+
+  .j2
+  {
+    width: 40vw;
+  }

@@ -1,0 +1,36 @@
+$widthContent: 100%;
+$heightContent: 600px;
+$backgroundColorContent: #fff;
+$fontSizeContent: 3rem;
+$paddingsContent: 10px;
+$fontSizeH1: 5rem;
+$fontWeightH1: bolder;
+$backgroundColorH1: aquamarine;
+
+
+.content
+{
+    background-color: $backgroundColorContent;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    padding: $paddingsContent;
+    width: $widthContent;
+    height:$heightContent;
+    font-size: $fontSizeContent; 
+    h1
+    {
+        font-size: $fontSizeH1 ;
+        font-weight: $fontWeightH1;
+        background-color: $backgroundColorH1;
+        &:hover
+        {
+            font-size: $fontSizeH1+3rem;
+            background-color: lighten($backgroundColorH1, 20);
+        }
+    }
+
+    
+}
+

@@ -1,0 +1,112 @@
+:root
+{
+    --gutter : 1%;
+    --colonne : calc(89%/12%);
+}
+
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    align-items: stretch;
+    
+}
+
+.gutter 
+{
+    width: 1%;
+}
+.col
+{
+
+    flex-grow: 1;
+
+}
+.s1
+{
+   width: var(--colonne);
+}
+
+.s2
+{
+    width: 2*var(var(--colonne))+ var(--gutter);
+}
+
+.s3
+{
+    width: calc(3*var(--colonne)+ 2* var(--gutter));
+}
+
+.s4
+{
+    width: calc(4*var(--colonne)+ 3* var(--gutter));
+}
+
+.s5
+{
+    width: calc(5*var(--colonne)+ 4* var(--gutter));
+}
+
+.s6
+{
+    width: calc(6*var(--colonne)+ 5* var(--gutter));
+}
+
+.s7
+{
+    width: calc(7*var(--colonne)+ 6* var(--gutter));
+}
+
+.s8
+{
+    width: calc(8*var(--colonne)+ 7* var(--gutter));
+}
+
+.s9
+{
+    width: calc(9*var(--colonne)+ 8* var(--gutter));
+}
+
+.s10
+{
+    width: calc(10*var(--colonne)+ 9* var(--gutter));
+}
+
+.s11
+{
+    width: calc(11*var(--colonne)+ 10* var(--gutter));
+}
+
+.s12
+{
+    width: calc(12*var(--colonne)+ 11* var(--gutter));
+}
+
+.black
+{
+    background-color: black;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.white-text
+{
+    color: white;
+}
+
+.white
+{
+    background-color: white;
+}
+
+ul:nth-child(1)
+{
+    list-style: none;
+    display: inline;
+}
+
