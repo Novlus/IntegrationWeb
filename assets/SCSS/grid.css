@@ -1,0 +1,265 @@
+.col + .col {
+  margin-left: 1.6%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.off1 {
+  margin-left: 6.8666666667%;
+}
+
+.off2 {
+  margin-left: 15.3333333333%;
+}
+
+.off3 {
+  margin-left: 23.8%;
+}
+
+.off4 {
+  margin-left: 32.2666666667%;
+}
+
+.off5 {
+  margin-left: 40.7333333333%;
+}
+
+.off6 {
+  margin-left: 49.2%;
+}
+
+.off7 {
+  margin-left: 57.6666666667%;
+}
+
+.off8 {
+  margin-left: 66.1333333333%;
+}
+
+.off9 {
+  margin-left: 74.6%;
+}
+
+.off10 {
+  margin-left: 83.0666666667%;
+}
+
+.off11 {
+  margin-left: 91.5333333333%;
+}
+
+.off12 {
+  margin-left: 100%;
+}
+
+.s1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 6.8666666667%;
+  margin-left: -1.6%;
+}
+
+.s2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 15.3333333333%;
+  margin-left: -1.6%;
+}
+
+.s3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 23.8%;
+  margin-left: -1.6%;
+}
+
+.s4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 32.2666666667%;
+  margin-left: -1.6%;
+}
+
+.s5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 40.7333333333%;
+  margin-left: -1.6%;
+}
+
+.s6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 49.2%;
+  margin-left: -1.6%;
+}
+
+.s7 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 57.6666666667%;
+  margin-left: -1.6%;
+}
+
+.s8 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 66.1333333333%;
+  margin-left: -1.6%;
+}
+
+.s9 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 74.6%;
+  margin-left: -1.6%;
+}
+
+.s10 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 83.0666666667%;
+  margin-left: -1.6%;
+}
+
+.s11 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 91.5333333333%;
+  margin-left: -1.6%;
+}
+
+.s12 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  flex-basis: 100%;
+  margin-left: -1.6%;
+}
+
+.black {
+  background-color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+ul:nth-child(1) {
+  list-style: none;
+  display: inline;
+}
+
+menu, main {
+  display: block;
+}
+
+@media screen and (min-width: 601px) {
+  .m1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 6.8666666667%;
+    margin-left: -1.6%;
+  }
+  .m2 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 15.3333333333%;
+    margin-left: -1.6%;
+  }
+  .m3 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 23.8%;
+    margin-left: -1.6%;
+  }
+  .m4 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 32.2666666667%;
+    margin-left: -1.6%;
+  }
+  .m5 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 40.7333333333%;
+    margin-left: -1.6%;
+  }
+  .m6 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 49.2%;
+    margin-left: -1.6%;
+  }
+  .m7 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 57.6666666667%;
+    margin-left: -1.6%;
+  }
+  .m8 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 66.1333333333%;
+    margin-left: -1.6%;
+  }
+  .m9 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 74.6%;
+    margin-left: -1.6%;
+  }
+  .m10 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 83.0666666667%;
+    margin-left: -1.6%;
+  }
+  .m11 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 91.5333333333%;
+    margin-left: -1.6%;
+  }
+  .m12 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    margin-left: -1.6%;
+  }
+}/*# sourceMappingURL=grid.css.map */

@@ -1,0 +1,28 @@
+@import '_alert.scss';
+
+.alert
+{
+    font-size: $alert;
+    &.alert-success
+    {
+        background-color: $succes;
+    }
+    
+    
+}
+
+.cefini
+    {
+        background-color: $danger;
+    }
+
+
+    .attention
+    {
+        background-color: $warning;
+    }
+
+    .message-info
+    {
+        background-color: $information;
+    }

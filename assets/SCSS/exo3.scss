@@ -1,0 +1,91 @@
+@import '../CSS/materialize';
+$tailleH1: 2.25rem !default;
+$fontWeightH1: bold !default;
+$alignementH1: center !default;
+$tailleH2 : 1.5rem !default;
+$fontStyleH2: italic !default;
+$tailleP: 1rem !default;
+$fontWeightP: normal !default;
+$listeStyle: square !default;
+
+.titre {
+  font-size: $tailleH1;
+  font-weight: $fontWeightH1;
+  text-align: $alignementH1;
+}
+
+.navigation :nth-child(1)
+{
+   @extend .brand-logo;
+   @extend .right;
+}
+
+.navigation :nth-child(2)
+{
+   @extend .left;
+   @extend .hide-on-med-and-down;
+}
+
+main .paragraphes :nth-child(1)
+{
+    font-size: $tailleH1;
+    font-weight: $fontWeightH1;
+    text-align: $alignementH1;
+}
+
+main .paragraphes :nth-child(2)
+{
+    font-size: $tailleH2;
+    font-style: $fontStyleH2;
+    text-align: $alignementH1;
+}
+
+main .paragraphes .contenu_paragaphes .tout-a-gauche
+{
+    @extend .left-align;
+    font-size: $tailleP;
+    font-weight: $fontWeightP;
+}
+
+main .paragraphes .contenu_paragaphes .liste-squ
+{  
+    list-style:square;
+    display: list-item;
+    list-style-type:square;
+}
+
+main .paragraphes .contenu_paragaphes .liste-squ :nth-child(1), main .paragraphes .contenu_paragaphes .liste-squ :nth-child(2), main .paragraphes .contenu_paragaphes .liste-squ :nth-child(3), main .paragraphes .contenu_paragaphes .liste-squ :nth-child(4)
+{
+    font-size: $tailleP;
+    font-weight: $fontWeightP;
+    list-style:square;
+}
+
+main .paragraphes .contenu_paragaphes .tout-a-droite
+{
+    @extend .right-align;
+    font-size: $tailleP;
+    font-weight: $fontWeightP;
+}
+
+main .paragraphes .contenu_paragaphes .bien-justifié
+{
+    text-align: justify;
+}
+
+main .paragraphes .contenu_paragaphes .code pre 
+{
+    font-weight: normal;
+    background-color: lightgray;
+    font-size: $tailleP;
+    color : darkorchid;
+}
+
+
+.liste-page
+{
+    @extend .collection;
+    li{
+      @extend .collection-item ;
+    }
+}

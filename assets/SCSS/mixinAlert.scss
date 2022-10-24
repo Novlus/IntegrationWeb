@@ -1,0 +1,32 @@
+@import '_alert.scss';
+
+.alert
+{
+    @include alerte();
+    
+    
+}
+
+.alert-success
+{
+    @include alerteType("success");
+}
+
+.cefini
+    {
+        //background-color: $danger;
+        @include alerteType("danger");
+    }
+
+
+    .attention
+    {
+        //background-color: $warning;
+        @include alerteType("warning");
+    }
+
+    .message-info
+    {
+        //background-color: $information;
+        @include alerteType("information");
+    }

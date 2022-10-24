@@ -1,0 +1,18 @@
+.alert {
+  font-size: 1.2rem;
+}
+.alert.alert-success {
+  background-color: green;
+}
+
+.cefini {
+  background-color: red;
+}
+
+.attention {
+  background-color: yellow;
+}
+
+.message-info {
+  background-color: blue;
+}/*# sourceMappingURL=e.g._TD72variables.css.map */

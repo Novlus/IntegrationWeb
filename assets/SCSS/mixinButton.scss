@@ -1,0 +1,28 @@
+@import '_bouton.scss';
+
+
+.little-button
+{
+    @include buttonSizeSmall();
+    @include buttonStyle($stylePetitBouton, $bordurePetitBouton, $couleurPetitBouton);
+}
+
+.medium-button
+{
+    @include buttonSizeMedium();
+    @include buttonStyle($styleMediumBouton, $bordureMediumBouton, $couleurMediumBouton);
+}
+
+.big-button
+{
+    @include buttonSizeLarge();
+    @include buttonStyle($styleGrandBouton, $bordureGrandBouton, $couleurGrandBouton);
+}
+
+.button
+{
+    @include button();
+}
+
+
+

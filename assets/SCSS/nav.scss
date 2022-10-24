@@ -1,0 +1,24 @@
+@import '_nav.scss';
+
+nav
+{
+    @include Ul($backgroundColorNavUl);
+  
+    
+}
+
+@media screen and (min-width: 40em)
+{
+    nav
+    {
+        @include Ul2($backgroundColorNavUl2 ,$justifyContentNavUl2);
+    }
+}
+
+@media screen and (min-width: 60em)
+{
+    nav
+    {
+        @include Ul3($backgroundColorNavUl3 ,$justifyContentNavUl3);
+    }
+}

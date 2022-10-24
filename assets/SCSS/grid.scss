@@ -1,0 +1,278 @@
+@import '_grid.scss';
+
+//@import '_variable.scss';
+
+.col + .col
+    {
+        margin-left: $gutter;
+    }
+
+.row
+    {
+        @include row();
+    }
+
+.off1
+{
+    @include offset(1,$TotalNBColumns);
+}
+
+.off2
+{
+    @include offset(2,$TotalNBColumns);
+}
+
+.off3
+{
+    @include offset(3,$TotalNBColumns);
+}
+
+.off4
+{
+    @include offset(4,$TotalNBColumns);
+}
+
+
+.off5
+{
+    @include offset(5,$TotalNBColumns);
+}
+
+.off6
+{
+    @include offset(6,$TotalNBColumns);
+}
+
+.off7
+{
+    @include offset(7,$TotalNBColumns);
+}
+
+.off8
+{
+    @include offset(8,$TotalNBColumns);
+}
+
+.off9
+{
+    @include offset(9,$TotalNBColumns);
+}
+
+.off10
+{
+    @include offset(10,$TotalNBColumns);
+}
+
+.off11
+{
+    @include offset(11,$TotalNBColumns);
+}
+
+.off12
+{
+    @include offset(12,$TotalNBColumns);
+}
+
+.s1
+    {
+        @include grid();
+        @include dimension(1,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s2
+    {
+        @include grid();
+        @include dimension(2,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s3
+    {
+        @include grid();
+        @include dimension(3,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s4
+    {
+        @include grid();
+        @include dimension(4,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s5
+    {
+        @include grid();
+        @include dimension(5,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s6
+    {
+        @include grid();
+        @include dimension(6,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s7
+    {
+        @include grid();
+        @include dimension(7,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s8
+    {
+        @include grid();
+        @include dimension(8,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s9
+    {
+        @include grid();
+        @include dimension(9,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s10
+    {
+        @include grid();
+        @include dimension(10,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s11
+    {
+        @include grid();
+        @include dimension(11,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .s12
+    {
+        @include grid();
+        @include dimension(12,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .black
+{
+    background-color: black;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.white-text
+{
+    color: white;
+}
+
+.white
+{
+    background-color: white;
+}
+
+ul:nth-child(1)
+{
+    list-style: none;
+    display: inline;
+}
+
+menu, main {
+    display: block;
+  }
+
+@media screen and (min-width: 601px)
+{
+    .m1
+    {
+        @include grid();
+        @include dimension(1,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m2
+    {
+        @include grid();
+        @include dimension(2,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m3
+    {
+        @include grid();
+        @include dimension(3,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m4
+    {
+        @include grid();
+        @include dimension(4,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m5
+    {
+        @include grid();
+        @include dimension(5,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m6
+    {
+        @include grid();
+        @include dimension(6,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m7
+    {
+        @include grid();
+        @include dimension(7,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m8
+    {
+        @include grid();
+        @include dimension(8,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m9
+    {
+        @include grid();
+        @include dimension(9,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m10
+    {
+        @include grid();
+        @include dimension(10,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m11
+    {
+        @include grid();
+        @include dimension(11,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+    .m12
+    {
+        @include grid();
+        @include dimension(12,$TotalNBColumns);
+        @include offset(0,$TotalNBColumns);
+    }
+
+
+}
+

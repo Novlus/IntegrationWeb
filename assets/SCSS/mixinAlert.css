@@ -1,0 +1,33 @@
+.alert {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+}
+
+.alert-success {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  background-color: green;
+}
+
+.cefini {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  background-color: red;
+}
+
+.attention {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  background-color: yellow;
+}
+
+.message-info {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  background-color: blue;
+}/*# sourceMappingURL=mixinAlert.css.map */
